@@ -242,7 +242,7 @@ Column {
             placeholderText: config.TranslatePlaceholderPassword || textConstants.password
             horizontalAlignment: TextInput.AlignHCenter
             passwordCharacter: "•"
-            passwordMaskDelay: config.ForceHideCompletePassword == "true" ? undefined : 1000
+            //passwordMaskDelay: config.ForceHideCompletePassword == "true" ? undefined : 1000
             renderType: Text.QtRendering
             background: Rectangle {
                 color: "transparent"
