@@ -49,6 +49,8 @@ Column {
             height: parent.height
             anchors.left: parent.left
 
+            displayText: ""
+
             property var popkey: config.ForceRightToLeft == "true" ? Qt.Key_Right : Qt.Key_Left
             Keys.onPressed: {
                 if (event.key == Qt.Key_Down && !popup.opened)
